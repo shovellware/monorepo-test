@@ -1,6 +1,7 @@
 {
   "name": "monster",
   "version": "0.0.0",
+  "private": true,
   "description": "> TODO: description",
   "author": "Dominic <shovelware@protonmail.ch>",
   "homepage": "https://github.com/shovellware/monorepo-test#readme",
