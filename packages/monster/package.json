@@ -1,0 +1,34 @@
+{
+  "name": "monster",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Dominic <shovelware@protonmail.ch>",
+  "homepage": "https://github.com/shovellware/monorepo-test#readme",
+  "license": "ISC",
+  "main": "lib/monster.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shovellware/monorepo-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/shovellware/monorepo-test/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+ },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5"
+  }
+}
