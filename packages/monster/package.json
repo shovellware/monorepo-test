@@ -20,7 +20,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-file index.js"
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "lint": "eslint src/**",
+    "lint-fix": "eslint src/** --fix"
   },
   "bugs": {
     "url": "https://github.com/shovellware/monorepo-test/issues"
@@ -30,11 +32,6 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8"
+    "@babel/cli": "^7.10.5"
   }
 }
